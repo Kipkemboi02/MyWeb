@@ -58,3 +58,14 @@ $stmt->bind_param("ss", $password_hash, $user["id"]);
 $stmt->execute();
 
 echo "Password updated. You can now login." ;
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    </head>
+    <body>
+    <p><a href="login.php">Login</a></p>
+</body>
+</html>
